@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+  font-family: 'Raleway';
+  color: #373737;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  border: 2px solid #6fc247;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.logo {
+  height: 1.2rem;
+}
+
+.nav--links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav--links a {
+  padding: 1rem 0;
+}
+
+.nav--links li {
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+.nav--links li > img {
+  height: .3rem;
+}
+
+.nav--button {
+  width: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: .89rem;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #fff;
+  background: #6fc247;
+  border: none;
+  outline: none;
+  border-radius: .8rem;
+  padding: 1.1rem 2rem;
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+
+.nav--button--white {
+  width: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .89rem;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #6fc247;
+  background: #fff;
+  border: 1px solid #6fc247;
+  outline: none;
+  border-radius: .8rem;
+  padding: 1.1rem 2rem;
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+
+.nav--button:hover {
+  background: #ec6149;
+}
+
+.nav--button--white:hover {
+  background: #6fc247;
+  color: #fff;
+}
+
+.nav--button img {
+  height: 1.3rem;
+}
+
+.hero--section {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.hero--header {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  width: 80%;
+  margin: 8rem auto 2rem auto;
+}
+
+.hero--paragraph {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2.3rem;
+}
+
+.button--div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 80%;
+  margin: 3rem auto;
+}
+
+/* .hero--image {
+  margin: 0 auto;
+} */
+
+.hero--image img {
+  width: 100%;
+}
+
+.partners {
+  width: 80%;
+  margin: 0 auto 5rem auto;
+}
+
+.partners--header {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 700;
+  padding: 1.5rem 0;
+}
+
+.partners--description {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.grid--container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 1rem;
+  column-gap: .9rem;
+}
+
+.grid--items img {
+  width: 100%;
+}
+
+.why-us {
+  background: #111111;
+}
+.why-us--container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+.vaultico h1 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+}
+
+.vaultico p {
+  font-size: 1rem;
+  font-weight: 300;
+  width: 60%;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  margin: 4rem 0 0 0;
+}
+
+.features-single h3 {
+  font-size: 1.3rem;
+  padding-bottom: 1.6rem;
+}
+
+.valuations {
+  width: 80%;
+  margin: 6rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.valuation--details {
+  width: 80%;
+  margin-bottom: 4rem;
+}
+
+.valuation--details h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.valuation--details p {
+  font-weight: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.valuations--image {
+  height: 45rem;
+}
+
+.valuations--image img {
+  width: 100%;
+  height: 100%;
+}
+
+.sub--valuation {
+  width: 80%;
+  padding: 0 3rem;
+}
+
+.sub--valuation--div {
+  margin-bottom: 4rem;
+}
+
+.sub--valuation--div h4 {
+  font-size: 1.3rem;
+  padding-bottom: .6rem;
+}
+
+.sub--valuation--div p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.valuation--btn {
+  width: 80%;
+  margin: 0 auto 8rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 780px) {
+  .navigation {
+    width: 90%;
+    padding: 2rem 0;
+  }
+
+  .nav--links,
+  .navigation .nav--button {
+    display: none;
+  }
+
+  .hero--section {
+    width: 90%;
+  }
+
+  .hero--header {
+    font-size: 3rem;
+    width: 90%;
+  }
+
+  .hero--paragraph {
+    font-size: 1.1rem;
+    width: 90%;
+  }
+
+  .button-div {
+    width: 90%;
+  }
+
+  .partners {
+    width: 90%;
+  }
+
+  .grid--container {
+    /* grid-template-columns: repeat(3, 1fr); */
+  }
+
+  .why-us--container {
+    width: 90%;
+  }
+
+  .features-single {
+    padding-bottom: 2.4rem;
+  }
+
+  .valuations {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 1rem;
+  }
+
+  .valuations--image {
+    grid-row: 1;
+    height: 25rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero--header {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+
+  .hero--paragraph {
+    font-size: 1.1rem;
+    width: 100%;
+    line-height: 1.9rem;
+  }
+
+  .button--div {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .button--div .nav--button,
+  .nav--button--white {
+    width: 20rem;
+  }
+
+  .hero--image {
+    margin-top: 6rem;
+  }
+
+  .partners {
+    width: 90%;
+  }
+
+  .partners--description {
+    width: 90%;
+  }
+
+  .grid--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .vaultico p {
+    width: 90%;
+  }
+
+  .features {
+    column-gap: 2rem;
+  }
+
+  .valuations {
+    width: 95%;
+    margin-top: 1rem;
+  }
+
+  .valuation--details {
+    width: 95%;
+  }
+
+  .sub--valuation {
+    width: 90%;
+    padding: 0 1.5rem;
+  }
+
+  .valuation--btn {
+    width: 95%;
+    margin-top: 1rem;
+  }
+--
+  .valuation--btn .nav--button {
+    width: 20rem;
+  }
+}
